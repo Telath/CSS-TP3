@@ -1,0 +1,208 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: inline-block;
+}
+
+div{
+    margin: 50px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.flag1{
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    border: 1px solid black;
+}
+
+.flag1:after{
+    content: "";
+    position: absolute;
+    background-color: red;
+    width: 33%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.flag1:before{
+    content: "";
+    position: absolute;
+    background-color: blue;
+    width: 33%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.flag2{
+    width: 300px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+    border: 1px solid black;
+}
+
+.flag2:before{
+    content: "";
+    position: absolute;
+    height: 33%;
+    top:0;
+    right: 0;
+    left: 0;
+    background-color: black;
+}
+
+.flag2:after{
+    content: "";
+    position: absolute;
+    height: 33%;
+    bottom:0;
+    right: 0;
+    left: 0;
+    background-color: yellow;
+}
+
+.flag3{
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    border: 1px solid black;
+}
+
+.flag3:before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50px;
+    right: 100px;
+    top: 25px;
+}
+
+.flag4{
+    width: 300px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+    border: 1px solid black;
+}
+
+.flag4:before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 120px;
+    background-color: white;
+    top: 15px;
+    right: 135px;
+}
+
+.flag4:after{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    top: 60px;
+    right: 90px;
+}
+
+.flag5{
+    width: 300px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+    border: 1px solid black;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 15%, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 31%, rgba(255,0,0,1) 31%);
+}
+
+.flag5:before{
+    content: "";
+    position: absolute;
+    height: 15%;
+    top: 40%;
+    right: 0;
+    left: 0;
+    background-color: darkblue;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+
+}
+
+.flag5:after{
+    content: "";
+    position: absolute;
+    width: 8%;
+    top: 0;
+    bottom:0;
+    left: 19%;
+    background-color: darkblue;
+}
+
+.flag6{
+    width: 300px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+    border: 1px solid black;
+}
+
+.flag6:before{
+    content: "";
+    position: absolute;
+    height: 50%;
+    top:0;
+    left: 0;
+    right: 0;
+    background-color: yellow;
+}
+
+.flag6:after{
+    content: "";
+    position: absolute;
+    width: 40%;
+    top:0;
+    left: 0;
+    bottom: 0;
+    background-color: darkgreen;
+}
+
+.flag7{
+    width: 300px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+    border: 1px solid black;
+}
+
+.flag7:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    top:0;
+    left: 0;
+    bottom: 0;
+    background: rgb(0,118,91);
+    background: linear-gradient(90deg, rgba(0,118,91,1) 0%, rgba(0,118,91,1) 33%, rgba(200,16,37,1) 33%, rgba(200,16,37,1) 66%, rgba(244,202,21,1) 66%);
+}
+
+.flag7:after{
+    content: "★";
+    position: absolute;
+    color: rgba(244,202,21,1);
+    font-size: 50px;
+    top: 25%;
+    right: 44%;
+}
